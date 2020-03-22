@@ -31,3 +31,5 @@ function printRankings(rankings: Array<RankingTuple>): void {
 
 // call function
 printRankings(hallOfFame);
+
+export { printRankings, RankingTuple };

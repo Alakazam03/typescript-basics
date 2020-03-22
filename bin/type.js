@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 let position;
 let playerName;
 let finishedGame;
@@ -5,7 +7,7 @@ let ranking;
 let hallOfFame = [];
 position = 1;
 playerName = "vaibhav Aggarwal";
-finishedGame = 1;
+finishedGame = true;
 ranking = [position, playerName, finishedGame];
 hallOfFame.push(ranking);
 position = 2;
@@ -18,4 +20,5 @@ function printRankings(rankings) {
         console.log(ranking);
     }
 }
+exports.printRankings = printRankings;
 printRankings(hallOfFame);
